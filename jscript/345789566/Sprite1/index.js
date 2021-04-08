@@ -12,17 +12,17 @@ export default class Sprite1 extends Sprite {
     super(...args);
 
     this.costumes = [
-      new Costume("costume1", "./Sprite1/costumes/costume1.svg", {
+      new Costume("costume1", "https://polaris183.github.io/archive/jscript/345789566/Sprite1/costumes/costume1.svg", {
         x: 48,
         y: 50
       }),
-      new Costume("costume2", "./Sprite1/costumes/costume2.svg", {
+      new Costume("costume2", "https://polaris183.github.io/archive/jscript/345789566/Sprite1/costumes/costume2.svg", {
         x: 46,
         y: 53
       })
     ];
 
-    this.sounds = [new Sound("Meow", "./Sprite1/sounds/Meow.wav")];
+    this.sounds = [new Sound("Meow", "https://polaris183.github.io/archive/jscript/345789566/Sprite1/sounds/Meow.wav")];
 
     this.triggers = [
       new Trigger(Trigger.GREEN_FLAG, this.whenGreenFlagClicked)
