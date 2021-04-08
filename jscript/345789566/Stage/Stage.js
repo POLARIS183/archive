@@ -12,13 +12,13 @@ export default class Stage extends StageBase {
     super(...args);
 
     this.costumes = [
-      new Costume("backdrop1", "./Stage/costumes/backdrop1.svg", {
+      new Costume("backdrop1", "https://polaris183.github.io/archive/jscript/345789566/Stage/costumes/backdrop1.svg", {
         x: 240,
         y: 180
       })
     ];
 
-    this.sounds = [new Sound("pop", "./Stage/sounds/pop.wav")];
+    this.sounds = [new Sound("pop", "https://polaris183.github.io/archive/jscript/345789566/Stage/sounds/pop.wav")];
 
     this.triggers = [];
 
