@@ -2,8 +2,8 @@
 //
 import { Project } from "https://unpkg.com/leopard@^1/dist/index.esm.js";
 
-import Stage from "./Stage/Stage.js";
-import Sprite1 from "./Sprite1/Sprite1.js";
+import Stage from "https://polaris183.github.io/archive/jscript/345789566/Stage/Stage.js";
+import Sprite1 from "https://scratch.mit.edu/projects/345789566/Sprite1/Sprite1.js";
 
 const stage = new Stage({ costumeNumber: 1 });
 
